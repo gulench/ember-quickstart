@@ -10,4 +10,8 @@ Router.map(function() {
   this.route('scientists');
 });
 
+Router.reopen({
+  location: 'hash'
+});
+
 export default Router;
